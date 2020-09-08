@@ -28,7 +28,7 @@ func main() {
 	}
 	cat.SetName("bbbb")
 	fmt.Println(cat)
-	cat.SetName1("ddd")
+	cat.SetName1("eee")
 	fmt.Println(cat)
 }
 
