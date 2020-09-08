@@ -30,6 +30,7 @@ func main() {
 	fmt.Println(cat)
 	cat.SetName1("eee")
 	fmt.Println(cat)
+	///添加注释测试
 }
 
 func chan_test() {
