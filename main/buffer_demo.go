@@ -26,6 +26,7 @@ func main() {
 	fmt.Printf("The unread bytes of the buffer:%v\n", unreadBytes) //读取结果为[97 98]
 	buffer2.WriteString("cdefg")
 	fmt.Printf("The capacity of  buffer: %d\n", buffer2.Cap()) //底层数组不变，内容容器的容量为：8
+	//只需扩充一下unreadbytes就可以读取甚至修改buffer中的后续内容
 	// unreadBytes = unreadBytes[:cap(unreadBytes)]
 	// fmt.Printf("The unread bytes of the buffer: %v\n", unreadBytes) //读取结果为[97 98 99 100 101 102 103 0]，泄露内容
 
